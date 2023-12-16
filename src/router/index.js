@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomePage from '@/views/HomePage.vue'
 import BrreweryPage from "@/views/BreweryPage.vue"
+import BreweryDetail from "@/views/BreweryDetail.vue"
 let router = createRouter({
     history: createWebHistory(),
     routes: [
@@ -11,6 +12,11 @@ let router = createRouter({
         {
             path: "/BreweryPage",
             component: BrreweryPage
+        },
+        {
+            path: "/BreweryDetail/:id",
+            name: "BreweryDetail",
+            component: BreweryDetail
         }
     ]
 

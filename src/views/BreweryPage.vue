@@ -26,8 +26,10 @@
               <p>City: {{ item.city }}</p>
               <p>Phone: {{ item.phone }}</p>
               <div class="text-end">
-                <a :href="item.website_url" target="_blank" class="btn"
-                  >See More</a
+                <router-link
+                  :to="{ name: 'BreweryDetail', params: { id: item.id } }"
+                  class="btn"
+                  >See More</router-link
                 >
               </div>
             </div>

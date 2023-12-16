@@ -60,7 +60,7 @@ export default {
 <style scoped>
 .homepage-container {
   width: 100%;
-  height: 83.1vh;
+  height: 81.5vh;
   overflow-y: auto;
   background: #0d0d0d;
 }
