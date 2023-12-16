@@ -143,6 +143,7 @@ export default {
 </script>
 
 <style scoped>
+/*
 .navbar {
   background: rgba(4, 10, 33, 0.7) !important;
 }
@@ -163,6 +164,29 @@ export default {
 
 .btn:hover {
   background: #218838;
+  transition: 0.5s;
+}
+*/
+.navbar {
+  background: rgb(80 42 38) !important;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.nav-link:hover {
+  color: #d46212 !important;
+}
+
+.btn {
+  color: #fff;
+  background-color: #391511;
+  border: none;
+}
+
+.btn:hover {
+  background: black;
   transition: 0.5s;
 }
 </style>

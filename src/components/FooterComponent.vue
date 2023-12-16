@@ -1,12 +1,11 @@
 <template>
+  <!-- <div class="footer-holder">
+    <p class="pt-3">&#169; 2023 Brwerey. All rights reserved.</p>
+    <p class="pt-3">Made with ❤️ by KMK, HHS, KLT</p>
+  </div> -->
   <div class="footer-holder">
-    <p class="p1">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ipsam
-      voluptatem eligendi ullam inventore, deserunt animi laudantium
-      necessitatibus excepturi ea corporis blanditiis eos veniam atque optio ut
-      eveniet non pariatur.
-    </p>
-    <p>Made with ❤️ by KMK, HHS, KLT</p>
+    <p class="pt-3">&#169; 2023 Brwerey. All rights reserved.</p>
+    <p class="pb-3">Made with ❤️ by KHK, HHS, KLT</p>
   </div>
 </template>
 
@@ -17,6 +16,7 @@ export default {
 </script>
 
 <style scoped>
+/*
 .footer-holder {
   background: #fff;
   color: #000;
@@ -28,6 +28,25 @@ export default {
 .footer-holder p {
   letter-spacing: 2px;
   font-weight: 600;
+}
+
+.p1 {
+  color: #7e7e7e;
+}
+*/
+.footer-holder {
+  background: #391511;
+  color: #fff;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+}
+
+.footer-holder p {
+  letter-spacing: 2px;
+  font-weight: 500;
 }
 
 .p1 {
