@@ -60,7 +60,7 @@ export default {
 <style scoped>
 .homepage-container {
   width: 100%;
-  height: 82vh;
+  height: 83.1vh;
   overflow-y: auto;
   background: #0d0d0d;
 }
@@ -81,8 +81,7 @@ p {
   letter-spacing: 1.5px;
 }
 */
-.row {
-}
+
 .row img {
   height: 520px;
 }
@@ -103,6 +102,7 @@ p {
   font-family: cursive;
   line-height: 2rem;
 }
+/*
 .btn {
   color: #fff;
   padding: 12px 32px;
@@ -113,5 +113,5 @@ p {
 .btn:hover {
   background: #218838;
   transition: 0.5s;
-}
+} */
 </style>
